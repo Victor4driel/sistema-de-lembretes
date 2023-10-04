@@ -1,0 +1,59 @@
+.reminderForm {
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    flex-wrap: wrap;
+    flex-direction: column;
+}
+
+.inputs {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin-bottom: 10px;
+    width: 100%;
+}
+
+.inputBox {
+    position: relative;
+    margin-right: 15px;
+    width: 100%;
+}
+
+.inputBox input {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid rgb(235, 235, 235);
+    background: #00000007;
+    border-radius: 5px;
+    outline: none;
+    color: black;
+    font-size: 1em;
+    box-shadow: -4px 4px 8px rgba(0, 0, 0, 0.24);
+}
+
+.inputBox span {
+    position: absolute;
+    left: 0;
+    padding: 10px;
+    pointer-events: none;
+    font-size: 1em;
+    color:rgba(0, 0, 0, 0.233);
+   
+}
+
+.inputBox input:valid ~ span,
+.inputBox input:focus ~ span {
+    color: rgb(0, 85, 5);
+    transform: translateX(10px) translateY(-7px);
+    font-size: 0.70em;
+    padding: 0 10px;
+    background: rgb(252, 251, 251);
+   
+}
+
+.btnBox{
+    width: 100%;
+}
+
+

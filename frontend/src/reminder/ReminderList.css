@@ -1,0 +1,48 @@
+
+/* Estilo para a lista de lembretes MEXE AQUI DEIXA MARGIN 0 COLOCAR NO GLOBAL CSS */
+.container ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+ /* Estilo para o grupo de lembretes da mesma data */
+.groupedList {
+  padding: 15px;
+  border: 1px solid #e9e9e9;
+  margin-bottom: 15px;
+  background-color: #F5F0B0;
+  justify-content: space-between;
+  box-shadow: -4px 4px 8px rgba(0, 0, 0, 0.24);
+}
+
+  /* Estilo para a data */
+.groupedList .date {
+    font-size: 1.5rem; 
+    background-color: #94c8ff;
+    font-weight: 600; 
+    color: black; 
+    padding: 10px;
+    margin-bottom: 15px;
+    border-radius: 10px; 
+    display: inline-block; 
+    box-shadow: -4px 4px 8px rgba(0, 0, 0, 0.24);
+  }
+
+  /* Estilo para os lembretes */
+  .groupedList li {
+    background-color: #fff;
+    font-size: 1.2rem;
+    color: #000000;
+    padding: 8px 12px;
+    margin-bottom: 50px;
+    border: 1px solid #e9e9e9;
+    border-radius: 10px;
+    margin: 5px 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.24);
+  }
+  
+  
